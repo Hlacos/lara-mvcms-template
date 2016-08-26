@@ -70,3 +70,9 @@ In config/app.php set the following keys:
 * fallback_locale
 
 In config/translatable.php set the frontend locales.
+
+### Create first user
+
+``` bash
+php artisan lara-mvcms:create-admin-user
+```

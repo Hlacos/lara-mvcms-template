@@ -1,0 +1,31 @@
+{
+  "name": "Template",
+  "description": "LaraMvcms Template",
+  "main": "",
+  "authors": [
+    "Heiszmann László"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "Laravel",
+    "LaraMvcms",
+    "Template"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/bower_components/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "AdminLTE": "adminlte#^2.3.6",
+    "flag-icon-css": "^2.4.0",
+    "ResponsiveFilemanager": "responsive-filemanager#9.9.7",
+    "font-awesome": "^4.6.3",
+    "Ionicons": "ionicons#^2.0.1",
+    "jQuery": "^3.1.0"
+  }
+}

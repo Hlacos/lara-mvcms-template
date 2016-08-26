@@ -29,5 +29,9 @@ class Kernel extends HttpKernel
         'auth' => \App\Http\Middleware\Authenticate::class,
         'auth.basic' => \Illuminate\Auth\Middleware\AuthenticateWithBasicAuth::class,
         'guest' => \App\Http\Middleware\RedirectIfAuthenticated::class,
+        'lara-mvcms.admin' => \Hlacos\LaraMvcms\Http\Middlewares\AdminAuthenticate::class,
+        'lara-mvcms.guest' => \Hlacos\LaraMvcms\Http\Middlewares\AdminGuest::class,
+        'lara-mvcms.is-admin' => \Hlacos\LaraMvcms\Http\Middlewares\SetIsAdmin::class,
+        'lara-mvcms.has-permission' => \Hlacos\LaraMvcms\Http\Middlewares\HasPermission::class,
     ];
 }

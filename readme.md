@@ -7,13 +7,21 @@
 [![Quality Score][ico-code-quality]][link-code-quality]
 [![Total Downloads][ico-downloads]][link-downloads]
 
-Its a template using LaraMvcms package,
+It is a template using LaraMvcms package,
 
 ## Installation
 
+### Composer
 With composer
 ``` bash
 composer create-project hlacos/lara-mvcms-template [projectname]
+```
+
+### Homestead
+
+``` bash
+composer require laravel/homestead --dev
+php vendor/bin/homestead make
 ```
 
 ### Setup .env File

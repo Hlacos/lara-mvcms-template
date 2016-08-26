@@ -21,7 +21,7 @@
     "tests"
   ],
   "dependencies": {
-    "AdminLTE": "adminlte#^2.3.6",
+    "AdminLTE": "adminlte#2.3.0",
     "flag-icon-css": "^2.4.0",
     "ResponsiveFilemanager": "responsive-filemanager#9.9.7",
     "font-awesome": "^4.6.3",

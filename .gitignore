@@ -6,3 +6,4 @@ Homestead.json
 composer.lock
 .php_cs
 Vagrantfile
+/.vagrant

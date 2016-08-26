@@ -11,12 +11,7 @@ return [
     |
     */
     'locales' => [
-        'en',
-        'fr',
-        'es' => [
-            'MX', // mexican spanish
-            'CO', // colombian spanish
-        ],
+        'gb',
     ],
 
     /*
@@ -41,7 +36,7 @@ return [
     | you can specify what default should be used here.
     |
     */
-    'locale' => null,
+    'locale' => 'gb',
 
     /*
     |--------------------------------------------------------------------------
@@ -66,7 +61,7 @@ return [
     | set it to false.
     |
     */
-    'fallback_locale' => 'en',
+    'fallback_locale' => 'gb',
 
     /*
     |--------------------------------------------------------------------------

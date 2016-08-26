@@ -43,12 +43,7 @@ CERTIFICATE_NAME=
 php artisan vendor:publish
 ```
 
-### Migrations
-
-Add Multiauth password resets table
-```
-php artisan kbwebs:multi-auth:create-resets-table
-```
+### Migrate
 
 Than migrate
 ``` bash
@@ -66,3 +61,12 @@ php artisan db:seed
 ``` bash
 bower install
 ```
+
+### Language
+
+In config/app.php set the following keys:
+
+* locale
+* fallback_locale
+
+In config/translatable.php set the frontend locales.

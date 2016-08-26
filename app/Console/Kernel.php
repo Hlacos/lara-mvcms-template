@@ -13,7 +13,6 @@ class Kernel extends ConsoleKernel
      * @var array
      */
     protected $commands = [
-        Commands\Inspire::class,
         \Hlacos\LaraMvcms\Console\Commands\CreateAdminUser::class
     ];
 

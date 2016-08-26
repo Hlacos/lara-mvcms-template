@@ -33,7 +33,6 @@ Set up google analitycs in the .env file
 ANALITYCS_SITE_ID=
 ANALYTICS_CLIENT_ID=
 ANALYTICS_SERVICE_EMAIL=
-
 CERTIFICATE_NAME=
 ```
 

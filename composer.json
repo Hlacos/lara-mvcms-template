@@ -1,7 +1,7 @@
 {
-    "name": "laravel/laravel",
-    "description": "The Laravel Framework.",
-    "keywords": ["framework", "laravel"],
+    "name": "hlacos/lara-mvcms-template",
+    "description": "Installable tempalte for LaraMvcms.",
+    "keywords": ["framework", "laravel", "lara-mvcms", "mcs"],
     "license": "MIT",
     "type": "project",
     "require": {
